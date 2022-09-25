@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.listitem {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.navcontainer {
+    background-color: #ccc;
+    box-shadow: 2px 4px 4xl rgb(193, 191, 191);
+}
+
+.textcenter {
+    margin: 10px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    box-shadow: 2px 4px 4px #ccc;
+    background-color: rgba(101, 200, 197, 0.921);
+}
+
+#aboveform {
+    width: 60%;
+    margin-left: 400px;
+    /* display:inline-block; */
+    justify-content: center;
+
+}
+
+.deleteicon:hover {
+    transform: scale(1.2);
+    transition: 0.3;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: #ccc 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+.deleteicon {
+    color: red;
+    font-size: 30px !important;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px rgb(230, 227, 227);
+}
