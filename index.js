@@ -69,6 +69,10 @@ deleteIcon.forEach((element) => {
 
 delete_data();
 
+function del(){
+    localStorage.clear();
+}
+
 
 
 

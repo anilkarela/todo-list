@@ -27,9 +27,11 @@ li {
 }
 
 .btn {
-    margin-top: 20px;
     box-shadow: 2px 4px 4px #ccc;
     background-color: rgba(101, 200, 197, 0.921);
+}
+.DelBtn{
+    margin: 50px;
 }
 
 #aboveform {
