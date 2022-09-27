@@ -71,6 +71,7 @@ delete_data();
 
 function del(){
     localStorage.clear();
+    window.location.reload();
 }
 
 
