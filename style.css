@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 li {
@@ -22,7 +23,7 @@ li {
 }
 
 .textcenter {
-    margin: 10px;
+    /* margin: 10px; */
     text-align: center;
 }
 
@@ -35,8 +36,9 @@ li {
 }
 
 #aboveform {
-    width: 60%;
-    margin-left: 400px;
+    margin:50px;
+    /* width: 60%; */
+    /* margin-left: 400px; */
     /* display:inline-block; */
     justify-content: center;
 
