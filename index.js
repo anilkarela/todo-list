@@ -70,8 +70,10 @@ deleteIcon.forEach((element) => {
 delete_data();
 
 function del(){
-    localStorage.clear();
-    window.location.reload();
+    if(window.confirm("Are you sure ? All data will be Deleted !")){
+        localStorage.clear();
+        window.location.reload();
+    }
 }
 
 

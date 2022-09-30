@@ -23,7 +23,7 @@ li {
 }
 
 .textcenter{
-    /* margin: 10px; */
+    margin-top: 30px;
     width: 100%;
     line-height: 100px;
     text-align: center;
@@ -33,9 +33,13 @@ li {
 
 .btn, .DelBtn {
     margin-top: 20px;
-    margin-left: 14px;
+    /* margin-right: 10px; */
     box-shadow: 2px 4px 4px #ccc;
     background-color: rgba(101, 200, 197, 0.921);
+}
+.DelBtn{
+    color:white;
+    background-color: rgba(226, 70, 70, 0.81) !important;
 }
 
 #aboveform {
