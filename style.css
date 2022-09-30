@@ -28,7 +28,8 @@ li {
 }
 
 .btn, .DelBtn {
-    margin: 30px;
+    margin-top: 20px;
+    margin-left: 14px;
     box-shadow: 2px 4px 4px #ccc;
     background-color: rgba(101, 200, 197, 0.921);
 }
@@ -44,7 +45,7 @@ li {
 
 .deleteicon:hover {
     transform: scale(1.2);
-    transition: 0.3;
+    transition: 0.5;
 }
 
 table {
@@ -52,9 +53,12 @@ table {
     border: 1px solid black;
     border-collapse: collapse;
 }
-
+th{
+    padding: 5px;
+}
 th,
 td {
+    font-size: 12px;
     border: #ccc 1px solid;
     /* padding: 10px; */
     text-align: center;
