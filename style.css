@@ -22,9 +22,13 @@ li {
     box-shadow: 2px 4px 4xl rgb(193, 191, 191);
 }
 
-.textcenter {
+.textcenter{
     /* margin: 10px; */
+    width: 100%;
+    line-height: 100px;
     text-align: center;
+    /* background-color: #ccc; */
+    background-image:linear-gradient(to right,rgb(163, 231, 213),rgba(224, 93, 93, 0.693));
 }
 
 .btn, .DelBtn {
